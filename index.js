@@ -98,11 +98,10 @@ function Baby() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
-*/
+  1. When this is used in the global scope it will show in the window/console Object.
+  2. With implicit binding if a dot calls a function, the object before the dot is what is referenced to with this.
+  3. New binding usage of this references the new object that is created with a constructor.
+  4. Explicit binding causes this to explicity be defined to the the object that is being called or applied with the methods .call and .apply.
 
 
 ///////// END OF CHALLENGE /////////
