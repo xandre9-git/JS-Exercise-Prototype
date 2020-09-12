@@ -52,7 +52,7 @@ Person.prototype.eat = function (str) {
   return this.stomach
 }
 
-// console.log(Person.eat("shit"))
+// console.log(Person.eat("food")) be mature and professional
 
 Person.prototype.poop = function () {
   
